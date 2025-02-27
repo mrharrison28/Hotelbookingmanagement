@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.container1 {
+  margin: 0%;
+  background-image: url("https://ik.imagekit.io/harrison/Hotel%20booking%20management%20/pattern-5.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  margin-inline: auto;
+  width: 100%;
+  background-color: #faf5f2;
+}
+.sub-main {
+  background-image: url("https://ik.imagekit.io/harrison/Hotel%20booking%20management%20/pattern-1.png");
+  background-repeat: no-repeat;
+}
+.safty1 {
+  margin-inline: auto;
+  padding-top: 100px;
+  width: 95%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 72px;
+}
+.para1 {
+  font-family: "Berkshire Swash", serif;
+  width: 300px;
+  font-size: 25px;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.img {
+  overflow: hidden;
+}
+.img img {
+  width: 100%;
+  transition: all 0.4s linear;
+}
+.img img:hover {
+  transform: scale(1.1);
+}
+.para {
+  width: 80px;
+  height: 80px;
+  font-family: "Kanit", serif;
+  color: white;
+  background-color: #c77a63;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 450px;
+  left: 295px;
+}
+
+/* homeabout */
+
+.cont {
+  margin-inline: auto;
+  width: 1390px;
+  height: 600px;
+  background-color: white;
+}
+.safty {
+  padding: 100px;
+  margin-inline: auto;
+  width: 90%;
+  height: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 23% 23% 54%;
+}
+.img1 {
+  justify-self: center;
+  margin-right: 60px;
+  align-self: start;
+}
+.img2 {
+  /* justify-self: center; */
+  align-self: center;
+}
+.about {
+  background-color: white;
+  padding: 55px;
+  line-height: 2;
+}
+.head {
+  color: #c77a63;
+  font-family: "Kanit", serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.flex-li {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+}
+.l1 {
+  position: relative;
+  top: 5px;
+}
+.text {
+  font-family: "Berkshire Swash", serif;
+  font-size: 50px;
+  line-height: 1;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-weight: lighter;
+}
+.p-t {
+  letter-spacing: 0.2px;
+}
+
+/* Rooms */
+
+.container2 {
+  margin: 0%;
+  padding-top: 80px;
+  background-color: #f3efef;
+  height: 600px;
+  margin-inline: auto;
+  position: relative;
+  top: 300px;
+}
+.heading {
+  text-align: center;
+  padding: 20px;
+}
+.heading p {
+  text-align: center;
+  font-family: "Kanit", serif;
+  font-size: smaller;
+  color: #c77a63;
+  letter-spacing: 3px;
+}
+.heading h1 {
+  font-size: 50px;
+  line-height: 1;
+  font-family: "Berkshire Swash", serif;
+  font-weight: lighter;
+}
+.safety2 {
+  margin-inline: auto;
+  /* background-color: aqua; */
+  height: 400px;
+  width: 95%;
+  display: flex;
+  gap: 20px;
+}
+.image {
+  height: 350px;
+  width: 348px;
+}
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 120px;
+}
+.text1 {
+  background-color: aliceblue;
+  width: 270px;
+  font-family: "Berkshire Swash", serif;
+  font-weight: normal;
+  text-align: center;
+  padding: 15px;
+}
+
+.icon {
+  background-color: #ffffff;
+}
+.button {
+  color: white;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Kanit", serif;
+  height: 60px;
+  max-width: 208px;
+  text-align: center;
+  border: 0px solid #c77a63;
+  z-index: 0;
+  font-size: 15px;
+  background-color: #c77a63;
+}
+.button span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 35%;
+  background-color: #2c2a49;
+  transition: width 0.3s linear, height 0.3s linear;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.button:hover {
+  color: white;
+}
+.button:hover span {
+  width: 200%;
+  height: 150px;
+}
+
+.card {
+  background-color: white;
+  position: relative;
+  bottom: 455px;
+  padding: 20px 30px 0px 30px;
+  height: 120px;
+  width: 250px;
+  left: 20px;
+  /* display:none; */
+  opacity: 0;
+  /* content: none; */
+  transition: all 0.3s 0s linear;
+}
+.card h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card:hover {
+  height: 300px;
+  width: 250px;
+  opacity: 1;
+}
+
+/* Hometest */
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+.container3 {
+  margin: 0;
+  position: relative;
+  top: 400px;
+  right: 10px;
+  margin-inline: auto;
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+.safty3 {
+  background-image: url("https://ik.imagekit.io/harrison/Hotel%20booking%20management%20/pattern-1.png");
+  background-repeat: no-repeat;
+  background-position: 33% 98%;
+  margin-inline: auto;
+  width: 95%;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  height: 458px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+.sec1 h1 {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+}
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+}
+.p1 {
+  font-family: "Kanit", serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: #c77a72;
+}
+.sec2 {
+  background-color: #fefefe;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 458px;
+  text-align: center;
+  box-shadow: 0px 0px 40px rgb(232, 229, 229);
+}
+.sec2 img {
+  border-radius: 50%;
+  position: relative;
+  top: 70px;
+}
+/* .sec2 svg{
+  padding: 10px;
+} */
+.sec2 h2 {
+  height: 45px;
+  width: 45px;
+  background-color: #c77a63;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Homecheck */
+
+.container4 {
+  background-image: url("https://ik.imagekit.io/ykn0ycjx9/selva/Toes-in-the-SAnd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  align-self: center;
+  position: relative;
+  top: 500px;
+}
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+#p {
+  color: #f76b40;
+  font-family: "Kanit", serif;
+  font-size: large;
+  letter-spacing: 5px;
+}
+#h {
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-weight: lighter;
+  font-size: 45px;
+}
+.spa {
+  display: block;
+  text-align: center;
+}
+
+/* Homefacility */
+
+.container5 {
+  margin: 0%;
+  background-color: #ffffff;
+  height: 500px;
+  margin-inline: auto;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("https://ik.imagekit.io/harrison/Hotel%20booking%20management%20/pattern-1.png");
+  background-repeat: no-repeat;
+  background-position: 45% 90%;
+  padding: 0px 60px;
+  position: relative;
+  top: 600px;
+}
+.safety5 {
+  margin-inline: auto;
+  background-image: url("https://ik.imagekit.io/harrison/Hotel%20booking%20management%20/pattern-6.png");
+  /* background-color: aqua; */
+  height: 500px;
+  width: 95%;
+  display: flex;
+  gap: 70px;
+}
+.card10 {
+  display: flex;
+  gap: 20px;
+}
+.card20 {
+  display: flex;
+  gap: 20px;
+}
+.one1 {
+  background-color: white;
+  width: 150px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 40px rgb(232, 229, 229);
+}
+.two1 {
+  margin-top: 20px;
+  background-color: white;
+  width: 150px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 40px rgb(232, 229, 229);
+}
+.one1 svg:hover {
+  color: #c77a63;
+}
+.two1 svg:hover {
+  color: #c77a63;
+}
+.first h1 {
+  font-size: 50px;
+  font-weight: lighter;
+  font-family: "Berkshire Swash", serif;
+}
+.head1 {
+  letter-spacing: 3px;
+  color: #c77a63;
+  font-family: "Kanit", serif;
+}
+.first p {
+  font-size: 20px;
+}
+
+/* Bookrating */
+
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.rating-cont {
+  margin: 0%;
+  margin-inline: auto;
+  height: 100vh;
+  background-color: rgb(250, 245, 242);
+  position: relative;
+  top: 650px;
+  height: 380px;
+}
+.rating-safety {
+  width: 90%;
+  margin-inline: auto;
+  background-color: rgb(250, 245, 242);
+  display: flex;
+  justify-content: space-around;
+}
+.line {
+  border-left: 2px solid rgb(229, 225, 222);
+  transform: rotate(15deg);
+}
+.rating-content {
+  padding: 20px;
+}
+.rating-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  color: rgb(199, 122, 99);
+}
+.rating-content p {
+  font-family: "Kanit", serif;
+  color: rgb(110, 116, 131);
+}

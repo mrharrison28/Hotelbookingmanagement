@@ -1,0 +1,37 @@
+{
+    "AllWorks":[{
+        "image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-9.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-7.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-8.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-5.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-4.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-3.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-2.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-1.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-6.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-9.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-1.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-1.jpg"}
+
+    ],
+    "Nursing":[
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-4.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-3.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-2.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-1.jpg"}
+    ],
+    "Medical":[{
+        "image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-9.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-7.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-8.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-5.jpg"}
+
+    ],
+    
+    "Senior":[{
+        "image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-6.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-9.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-1.jpg"},
+        {"image":"https://ik.imagekit.io/ykn0ycjx9/selva/gallery-1.jpg"}
+    ]
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.room-main{
+    height: 2000px;
+}
+.room-text{
+    font-family: "Berkshire Swash", serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+}
+.room-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    color: rgb(110, 110, 119);
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 40px rgb(194, 191, 191);
+    transform: translateY(-248px);
+}
+.room-para{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    color: rgb(110, 110, 119);
+}
+.star {
+    text-align: start;
+    margin: 15px;
+    font-size: 14px;
+    margin-top: 60px;
+}
+.room-img {
+    transition: all 0.3s linear;
+}
+
+.room-img:hover {
+    transform: scale(1.1,1.1);
+    overflow: hidden;
+}
+.total1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 50px;
+}
+
+.room-image1 {
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px rgb(232, 229, 229);
+}
+.room-image {
+    background-color: white;
+    width: 350px;
+    height: 700px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px rgb(232, 229, 229);
+
+}
+.room-btn{
+    padding-left: 15px;
+    position: relative;
+    bottom: 30px;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+.container{
+    background-image: url('https://ik.imagekit.io/harrison/MERN%20Stack%20/lovepik-the-hotel-lobby-picture_500420418.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    font-family:"Stylish";
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.main{ 
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.lab{
+    color: #f96e67;
+    text-shadow: 2px 2px 10px #f96e67;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.inp1{
+    width: 230px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-family:"Stylish";
+    font-size: 20px;
+    padding: 10px;
+    color: #f96e67;
+    box-sizing: border-box;
+}
+.inp1:focus{
+    /* border: none; */
+    outline: none;
+}
+.btn1{
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-family:"Stylish";
+    color: #f96e67;
+    font-size: 18px;
+}
+.btn1:hover{
+    background-color: #f96e67;
+    color: white;
+    text-shadow: 2px 2px 5px #ffffff ;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .sign:hover{
+    color: #0056b3;
+    cursor: pointer;
+  }
+  .sign{
+    color: white;
+  }
+  .login-para{
+    color: white;
+  }
+  .btn2{
+    position: relative;
+    top: 20px;
+  }
+
+

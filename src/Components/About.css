@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+.about-container1 {
+    margin: 0;
+    margin-inline: auto;
+    width: 1450px;
+    height: 700px;
+    background-color: white;
+}
+.about-safty1 {
+    margin-inline: auto;
+    width: 95%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.about-one{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    row-gap: 30px;
+}
+.about-para{
+    font-family: "Kanit", serif;
+    letter-spacing: 3px;
+    position: relative;
+    top: 60px;
+    color: #c77a72;
+}
+.about-para1{
+    position: relative;
+    bottom: 45px;
+}
+.about-one h1{
+    font-family: "Berkshire Swash", serif;
+    position: relative;
+    /* top: 50px; */
+    font-size: 60px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.about-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    position: relative;
+}
+.about-img1{
+    position: relative;
+    bottom: 100px;
+}
+.about-img2{
+    position: relative;
+    top: 75px;
+}
+.about-three{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right: 115px;
+    top: 220px;
+    background-color: rgb(199, 122, 99);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-three span{
+    display: flex;
+    justify-content: center;
+}
+.about-button {
+    color: white;
+    position: relative;
+    bottom: 40px;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Kanit", serif;
+    height: 60px;
+    max-width: 208px;
+    text-align: center;
+    border: 0px solid #c77a63;
+    z-index: 0;
+    font-size: 15px;
+    background-color: #c77a63;
+  }
+  .about-button span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 35%;
+    background-color: #2c2a49;
+    transition: width 0.3s linear, height 0.3s linear;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  .about-button:hover {
+    color: white;
+  }
+  .about-button:hover span {
+    width: 200%;
+    height: 150px;
+  }
+
+/* Aboutvideo */
+
+.about-container2{
+    margin: 0%;
+    width: 100%;
+    height: 200px;
+    margin-inline: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about-safty2{
+    width: 95%;
+    height: 500px;
+    margin: 50px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-main{
+    width: 963px;
+    height: 450px;
+    background-image: url("https://ik.imagekit.io/sk751508/Mern%20clg%20project/istockphoto-1170655400-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-footer-cont{
+    background-color: rgb(37, 38, 56);
+    height: 450px;
+    margin-inline: auto;
+    font-family: "Kanit", serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 35px;
+    position: relative;
+    top: 500px;
+}
